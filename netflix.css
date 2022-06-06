@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, Arial, sans-serif;
+    background: #000000 url('./imagens\ netflix/capanetflix.jpg') no-repeat;
+}
+
+.h90 {
+    height: 90px;
+}
+
+.logo {
+    max-width: 166px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.Caixa-preta {
+    box-sizing: border-box;
+    background-color: #000000;
+    opacity: 0.8;
+    min-height: 500px;
+    max-width: 450px;
+    border-radius: 10px;
+    padding: 60px;
+
+
+    color: #737373;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+#h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    opacity: 1;
+
+}
+
+.input {
+    height: 30px;
+
+    font-size: 16px;
+
+    background-color: #333;
+    color: #737373;
+
+    border: 0;
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+
+}
+
+button {
+    height: 50px;
+
+
+    background-color: #e50914;
+    color: #ffffff;
+
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lembra-senha {
+    font-size: 14px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#help, #help:visited {
+     color: white;
+}
+
+#assine, #assine:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#ultimo-p {
+    font-size: 14px;
+}
+
+.link-azul, .link-azul:visited {
+    color: blue;
+}
